@@ -1,0 +1,63 @@
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFD0B8;
+    margin: 0 auto ;
+    padding: 0 auto ;
+    color: #3C5B6F;
+    background-image: url(yibei-geng--UdYbiywGeg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    background-color: rgb(225, 219, 195);
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+}
+header p{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 37, 87);
+    margin-left: 30px;
+  
+}
+
+   
+
+#img1{ 
+    padding-top: 30px;
+    height: 50px;
+    width: 50px;
+    align-content: l;
+    margin-left: 700px;
+    padding-right: 10px;
+}
+
+
+table,th, td {
+    border: 2px solid #3C5B6F ; 
+    background-color: #DFD0B8;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    border-collapse: collapse;
+    width: fit-content;
+    align-items: center;
+    margin: 30px 40px ;
+    padding: 5px ; 
+    border-collapse: collapse;
+    width: fit-content;
+    align-self: start;
+    
+} 
+ a h4 ,a{
+    padding-left: 80px;
+  text-decoration: none;
+    font-size: larger;
+
+ }

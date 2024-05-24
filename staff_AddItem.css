@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #153448;
+    background-color: rgba(223, 208, 184, 0.8);
+}
+
+
+header{
+    background-color:#3C5B6F;
+    display: flex;
+   
+}
+header p{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DFD0B8;
+    margin-left: 30px;
+}
+
+
+#img2 {
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#img1 {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+ 
+
+
+.home{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.home a{
+    text-align: center;
+    width: 50px;
+    border-radius: 12px;
+    padding:12px 20px;
+    margin-top:20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+
+}
+
+.home a:hover{
+    background-color: #3C5B6F;
+    color:white;
+
+}
+
+form {
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8%;
+    background-color: #f9f9f9;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form textarea,
+form input[type="number"],
+form input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+form select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    text-align: center;
+    width: fit-content;
+    border-radius: 12px;
+    padding:12px 20px;
+    margin-top:20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3C5B6F;
+    color: white;
+}

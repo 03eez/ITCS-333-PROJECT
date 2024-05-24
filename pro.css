@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFD0B8;
+}
+header {
+    background-color: #153448;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(213, 208, 208);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #948979;
+    border-radius: 8px;
+}
+h2, h3 {
+    color: #153448;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden; /* To ensure border-radius works with table */
+}
+table, th, td {
+    border: 1px solid #948979;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #3C5B6F;
+    color: white;
+}
+td {
+    background-color: #ffffff;
+}
+p {
+    margin: 10px 0;
+    color: #3C5B6F;
+}
+form {
+    margin: 20px 0;
+}
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #948979;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #153448;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #3C5B6F;
+}
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    background-color: rgb(229, 229, 229);
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer a {
+    color: gray;
+    text-decoration: none;
+}
+#remove {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s, opacity 0.3s;
+    padding: auto;
+}
+#remove:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.msg a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.msg a:hover {
+    text-decoration: underline;
+}
+
+/* For Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    main {
+        width: 90%;
+    }
+    th, td {
+        padding: 8px;
+    }
+    header, footer {
+        padding: 10px 15px;
+    }
+}
+
+/* For Phones */
+@media (max-width: 767px) {
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+    th, td {
+        padding: 5px;
+    }
+    header, footer {
+        padding: 10px;
+    }
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+    #remove {
+        width: 40px;
+        height: 40px;
+    }
+    .contactus p, .myAcc a, .About a {
+        font-size: 12px;
+    }
+}
+
+/* For Laptops */
+@media (min-width: 1024px) {
+    main {
+        max-width: 1000px;
+    }
+    th, td {
+        padding: 12px;
+    }
+    header, footer {
+        padding: 15px 30px;
+    }
+}

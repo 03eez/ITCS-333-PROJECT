@@ -1,0 +1,215 @@
+html{
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFD0B8;
+    margin: 0;
+    padding: 0;
+    color: #3C5B6F;
+    background-image: url(yibei-geng--UdYbiywGeg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100% ;
+    height: 100%;
+}
+
+.Admin {
+    width: 40% ;
+    height: 70% ;
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: #3C5B6F;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #f2ede3;
+}
+
+header{
+    background-color: rgb(225, 219, 195);
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    margin-right: 20px ;
+}
+header p{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 37, 87);
+    margin-left: 30px;
+  
+}
+
+
+#img1{ 
+  padding-top: 30px;
+  height: 50px;
+  width: 50px;
+  align-content: l;
+  margin-left: 700px;
+  padding-right: 10px;
+}
+
+a{
+    color: #f2ede3;
+}
+
+main .Admin .admin-group {
+     margin: 5px 0 ;
+    font-style: normal;
+    font-weight: bold;
+}
+
+main .Admin .admin-group label {
+    margin-top: 5px ; 
+    text-align: left;
+    display: block;
+    color: #f2ede3;    
+    height: 15px;
+}
+
+main .Admin .admin-group input {
+    margin-top: 5px ; 
+    align-items:center;
+    height: 30px;
+    width: 80%; ;
+    border: 1px solid #948979;
+    border-radius: 7px;
+}
+
+main .Admin button {
+    background-color: #153448;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 200px ;
+    margin: 10px 0 5px 0  ;
+}
+
+main .Admin button:hover {
+    background-color: #948979;
+}
+
+.staffadded h2 {
+    color:  #153448;
+    font-size: larger;
+}
+
+@media (max-width: 768px)
+{
+    /* Adjust overall layout for mobile */
+    body {
+      background-color: #DFD0B8; /* Fallback color */
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .Admin {
+      width: 50%; /* Make Admin container full width */
+      padding: 20px; /* Increase padding for better spacing */
+      margin-bottom: 20px;
+      margin: 10px 25px ;
+      /* text-align: center; */
+      align-items: center;
+      margin: 0 auto;
+    }
+  
+    header {
+        background-color: rgb(225, 219, 195);
+        /* flex-direction: column;  */
+        align-items: center ; 
+        height: 15%;
+        width:100%;
+    }
+    
+    header p {
+        font-size: 35px; 
+    }
+  
+    #img1 {
+      width: fit-content; 
+      height: 40px;
+      margin: 30px 0 ;
+    }
+  
+    #img2 {
+    width: 90px; 
+    height: 80px;
+    margin-left: 120px; 
+    align-items: center;
+     /* display: none; */
+    }
+  
+    .admin-group label {
+      font-size: 14px; 
+    }
+  
+    .admin-group input {
+      width: 90%; /* Make input fields full width */
+    }
+  
+    main .Admin button {
+      width: 40%; /* Make button full width */
+      margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+  }
+
+  @media (max-width: 400px) {
+    /* Adjust overall layout for mobile */
+    body {
+      background-color: #DFD0B8; /* Fallback color */
+      background-size: cover;
+      background-position: center;
+    }
+    .Admin {
+      width: 100%; /* Make Admin container full width */
+      padding: 15px; /* Reduce padding for smaller screen */
+      margin: 0 auto; 
+    }
+  
+    header {
+      align-items: center ; 
+      height: 15%;
+      width:100%;
+      background-color: rgb(225, 219, 195);
+      align-items: center;
+      height: auto; 
+    }
+  
+    header p {
+      font-size: 25px; /* Reduce font size for better readability */
+    }
+  
+    #img1 {
+        width: 30px ; 
+        height: 20px;/* Make images scale to full width */
+        margin-top: 10px ;
+        margin-right:20px; ;
+      }
+    #img2 {
+      width: 50px ; 
+      height: 50px;
+      margin-left: 30px ; 
+    }
+    .admin-group label {
+      font-size: 12px; /* Reduce font size for labels */
+    }
+  
+    .admin-group input {
+      width: 100%; /* Maintain full width for inputs */
+    }
+  
+    main .Admin button {
+      width: 100%; /* Make button full width */
+      margin-bottom: 10px; /* Maintain spacing */
+    }
+
+
+  }
+
+
